@@ -1,0 +1,84 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AES	../util/encrypt.py	/^from Crypto.Cipher import AES$/;"	kind:namespace	line:3
+InvalidMethod	../core.py	/^class InvalidMethod(NCloudBotException):$/;"	kind:class	line:541
+NCloudBot	../core.py	/^class NCloudBot(object):$/;"	kind:class	line:33
+NCloudBotException	../core.py	/^class NCloudBotException(Exception):$/;"	kind:class	line:533
+ParamsError	../core.py	/^class ParamsError(NCloudBotException):$/;"	kind:class	line:537
+Response	../core.py	/^class Response(object):$/;"	kind:class	line:206
+_METHODS	../core.py	/^    _METHODS = {$/;"	kind:variable	line:42
+__NETEAST_HOST	../core.py	/^    __NETEAST_HOST = 'http:\/\/music.163.com'$/;"	kind:variable	line:104
+__all__	../core.py	/^__all__ = [$/;"	kind:variable	line:11
+__init__	../core.py	/^    def __init__(self):$/;"	kind:member	line:106
+__init__	../core.py	/^    def __init__(self):$/;"	kind:member	line:212
+__init__.py	../__init__.py	1;"	kind:file	line:1
+__init__.py	../util/__init__.py	1;"	kind:file	line:1
+__repr__	../core.py	/^    def __repr__(self):$/;"	kind:member	line:112
+__repr__	../core.py	/^    def __repr__(self):$/;"	kind:member	line:219
+__setattr__	../core.py	/^    def __setattr__(self, name, value):$/;"	kind:member	line:115
+_build_response	../core.py	/^    def _build_response(self, resp):$/;"	kind:member	line:158
+_get_requests	../core.py	/^    def _get_requests(self):$/;"	kind:member	line:143
+_get_webapi_requests	../core.py	/^    def _get_webapi_requests(self):$/;"	kind:member	line:121
+aesEncrypt	../util/encrypt.py	/^def aesEncrypt(text, secKey):$/;"	kind:function	line:15
+album_comment	../core.py	/^def album_comment(id, offset=0, limit=20):$/;"	kind:function	line:491
+base64	../util/encrypt.py	/^import base64$/;"	kind:namespace	line:4
+cgi	../utils.py	/^import cgi$/;"	kind:namespace	line:1
+cookielib	../util/cookiesJar.py	/^import cookielib$/;"	kind:namespace	line:2
+cookiesJar.py	../util/cookiesJar.py	1;"	kind:file	line:1
+core.py	../core.py	1;"	kind:file	line:1
+createSecretKey	../util/encrypt.py	/^def createSecretKey(size):$/;"	kind:function	line:11
+encrypt.py	../util/encrypt.py	1;"	kind:file	line:1
+encrypted_request	../core.py	/^from util.encrypt import encrypted_request$/;"	kind:namespace	line:7
+encrypted_request	../util/encrypt.py	/^def encrypted_request(text):$/;"	kind:function	line:30
+event	../core.py	/^def event():$/;"	kind:function	line:393
+get_encoding_from_headers	../core.py	/^from utils import get_encoding_from_headers$/;"	kind:namespace	line:8
+get_encoding_from_headers	../utils.py	/^def get_encoding_from_headers(headers):$/;"	kind:function	line:4
+hashlib	../core.py	/^import hashlib$/;"	kind:namespace	line:3
+json	../core.py	/^    def json(self):$/;"	kind:member	line:226
+json	../core.py	/^import json$/;"	kind:namespace	line:5
+json	../test.py	/^import json$/;"	kind:namespace	line:4
+json	../util/encrypt.py	/^import json$/;"	kind:namespace	line:1
+login	../core.py	/^def login(password, phone=None, email=None, rememberLogin=True):$/;"	kind:function	line:236
+lyric	../core.py	/^def lyric(id):$/;"	kind:function	line:456
+lyric	../test.py	/^from core import lyric$/;"	kind:namespace	line:3
+modulus	../util/encrypt.py	/^modulus = '00e0b509f6259df8642dbc35662901477df22677ec152b5ff68ace615bb7b725152b3ab17a876aea8a5aa76d2e417629ec4ee341f56135fccf695280104e0312ecbda92557c93870114af6c9d05c4f7f0c3685b7a46bee255932575cce10b424d813cfe4875d3e82047b97ddef52741d546b8e289dc6935b3ece0462db0a22b8e7'$/;"	kind:variable	line:6
+music_comment	../core.py	/^def music_comment(id, offset=0, limit=20):$/;"	kind:function	line:472
+music_url	../core.py	/^def music_url(ids=[]):$/;"	kind:function	line:440
+nonce	../util/encrypt.py	/^nonce = '0CoJUm6Qyw8W8jud'$/;"	kind:variable	line:7
+os	../util/cookiesJar.py	/^import os$/;"	kind:namespace	line:3
+os	../util/encrypt.py	/^import os$/;"	kind:namespace	line:2
+personal_fm	../core.py	/^def personal_fm():$/;"	kind:function	line:523
+play_list_detail	../core.py	/^def play_list_detail(id, limit=20):$/;"	kind:function	line:422
+proxies	../core.py	/^proxies = {$/;"	kind:variable	line:28
+proxyHost	../core.py	/^proxyHost = "proxy.abuyun.com"$/;"	kind:variable	line:18
+proxyMeta	../core.py	/^proxyMeta = "http:\/\/%(user)s:%(pass)s@%(host)s:%(port)s" % {$/;"	kind:variable	line:22
+proxyPass	../core.py	/^proxyPass = "C39EAC44A6405179"$/;"	kind:variable	line:21
+proxyPort	../core.py	/^proxyPort = "9020"$/;"	kind:variable	line:19
+proxyUser	../core.py	/^proxyUser = "H0714433900N52ZD"$/;"	kind:variable	line:20
+pubKey	../util/encrypt.py	/^pubKey = '010001'$/;"	kind:variable	line:8
+raise_for_status	../core.py	/^    def raise_for_status(self):$/;"	kind:member	line:222
+re	../test.py	/^re = lyric('408055514')$/;"	kind:variable	line:6
+read_cookies	../util/cookiesJar.py	/^def read_cookies(username):$/;"	kind:function	line:22
+req	../core.py	/^    req = requests.Session()$/;"	kind:variable	line:39
+requests	../core.py	/^import requests$/;"	kind:namespace	line:4
+requests	../util/cookiesJar.py	/^import requests$/;"	kind:namespace	line:4
+rsaEncrypt	../util/encrypt.py	/^def rsaEncrypt(text, pubKey, modulus):$/;"	kind:function	line:24
+save_cookies	../util/cookiesJar.py	/^def save_cookies(session, username):$/;"	kind:function	line:7
+search	../core.py	/^def search(keyword, type=1, offset=0, limit=30):$/;"	kind:function	line:298
+send	../core.py	/^    def send(self):$/;"	kind:member	line:167
+song_detail	../core.py	/^def song_detail(ids):$/;"	kind:function	line:504
+test.py	../test.py	1;"	kind:file	line:1
+top_playlist_highquality	../core.py	/^def top_playlist_highquality(cat='全部', offset=0, limit=20):$/;"	kind:function	line:406
+traceback	../core.py	/^import traceback$/;"	kind:namespace	line:6
+user_dj	../core.py	/^def user_dj(uid, offset=0, limit=30):$/;"	kind:function	line:280
+user_event	../core.py	/^def user_event(uid):$/;"	kind:function	line:361
+user_followeds	../core.py	/^def user_followeds(uid, offset='0', limit=30):$/;"	kind:function	line:339
+user_follows	../core.py	/^def user_follows(uid, offset='0', limit=30):$/;"	kind:function	line:321
+user_play_list	../core.py	/^def user_play_list(uid, offset=0, limit=1000):$/;"	kind:function	line:264
+user_record	../core.py	/^def user_record(uid, type=0):$/;"	kind:function	line:377
+username	../core.py	/^    username = None$/;"	kind:variable	line:40
+utils.py	../utils.py	1;"	kind:file	line:1
